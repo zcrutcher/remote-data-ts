@@ -1,0 +1,20 @@
+{
+  "name": "remote-data-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "demo": "node examples/demo.ts"
+  },
+  "keywords": [],
+  "author": "Zach Crutcher https://github.com/zcrutcher",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
